@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Disadus - The helpful tool students deserve</title>
+        <title>Vote For Tet, for a better UC 2022 experience!</title>
         <link rel="icon" href="/logoold.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content={speech} />
