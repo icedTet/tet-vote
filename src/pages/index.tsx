@@ -27,10 +27,7 @@ export default function Home() {
           content="Vote For Tet, for a better UC 2022 experience!"
         />
         <meta property="og:description" content={speech} />
-        <meta
-          property="og:image"
-          content="/embed.jpg"
-        />
+        <meta property="og:image" content="/embed.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://v.tet.moe" />
         <meta property="og:type" content="website" />
@@ -39,10 +36,28 @@ export default function Home() {
       </Head>
       <div className={`dark:bg-zinc-900 w-full h-full`}>
         <div
-          className={`w-full h-full pt-16 `}
+          className={`absolute top-0 left-0 w-full h-full dark:brightness-[0.2] opacity-30 dark:opacity-80 `}
+        >
+          <div
+            className={`w-full h-full`}
+            style={{
+              backgroundColor: `hsla(0,100%,50%,1)`,
+              backgroundImage: `
+          radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0px, transparent 50%),
+          radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
+          radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0px, transparent 50%),
+          radial-gradient(at 80% 50%, hsla(340,100%,76%,1) 0px, transparent 50%),
+          radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0px, transparent 50%),
+          radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
+          radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%)`,
+              filter: `hue-rotate(${hue}deg)`,
+            }}
+          />
+        </div>
+        <div
+          className={`w-full h-full `}
           style={{
             filter: `hue-rotate(${hue}deg)`,
-            // background:
           }}
         >
           <iframe
