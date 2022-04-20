@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useLayoutEffect } from "react";
 const speech =
   "Hi, I'm John! This year I'm trying to run for Vice President of United Computations. I have a few things to offer that will be useful for UC. For one, I am no stranger to CS. I have done many CS projects ranging from the Gunn Elimination app to an app for a better Schoology that even caught the attention of the school admins and district. I've had prior experience working well with upcoming UC president Saumya. Furthermore, being a rising senior, I will also have more time to dedicate to the club, as I don’t have any large, inflexible time commitments like GRT or lots of AP classes next year. Regardless of if I win or not, I wish you and UC all the best for the next school year!";
-const formurl = `https://docs.google.com/forms/d/e/$1FAIpQLScUIfla_1vL6EplxlZykjjzDbMgIofQ2PcznmrDf0rMkIAScg/viewform?embedded=true&usp=pp_url&entry.1543329165=4th+pick&entry.333647976=2nd+pick&entry.907634041=1st+pick&entry.455228998=3rd+pick`;
+const formurl = `https://docs.google.com/forms/d/e/1FAIpQLScUIfla_1vL6EplxlZykjjzDbMgIofQ2PcznmrDf0rMkIAScg/viewform?embedded=true&usp=pp_url&entry.1543329165=4th+pick&entry.333647976=2nd+pick&entry.907634041=1st+pick&entry.455228998=3rd+pick`;
 export default function Home() {
   const router = useRouter();
   useLayoutEffect(() => {
